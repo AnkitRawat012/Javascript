@@ -22,7 +22,7 @@ let num = 10 ;
 for(let j = 0 ; j<num ; j++){
     // console.log(fibonacci(j));
 }
-console.log(typeof(factorial))
+// console.log(typeof(factorial))
 // function fib(num){
 //     if(num<=1) return num;
 //     return fib(num-1) + fib(num - 2);
@@ -33,3 +33,18 @@ console.log(typeof(factorial))
 // }
 
 // console.log(fibonacci(6))
+
+let user = {
+    name: 'Ankit',
+    user_id: 15,
+    phone: 8937854534
+};
+for(let key in user){
+    console.log(key,user[key]);
+}
+
+let array = [10,20,30,40,50];
+for(let key in array){
+    console.log(key);
+}
+// console.log(user)
