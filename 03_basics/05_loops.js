@@ -1,8 +1,8 @@
 const arr = [1,2,3,4,5]
 
-for (const index in arr){
-    console.log(arr[index])
-}
+// for (const index in arr){
+//     console.log(arr[index])
+// }
 
 // for (const val of arr) {
 //     console.log(val)
@@ -47,3 +47,20 @@ const myObj = {
 // for(const key in myObj){
 //     console.log(key, ' :-' ,myObj[key])
 // }
+
+
+// foreach loop generally used in array
+
+const coding = ['js','cpp','python','java','ruby','swift']
+// coding.forEach( function (val){
+//     console.log(val)
+// })
+
+// coding.forEach((val) => console.log(val))
+
+// function printMe(item){
+//     console.log(item);
+// }
+// coding.forEach(printMe)
+
+coding.forEach((item,index,arr) => console.log(item , index ,arr))
